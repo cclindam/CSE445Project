@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment5", "Assignment5\Assignment5.csproj", "{B7BA0C01-19C1-44D7-B666-2E017831789F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F55A808A-9E6B-4C32-8546-91CE10A89BB2} = {F55A808A-9E6B-4C32-8546-91CE10A89BB2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordStoreService", "RecordStoreService\RecordStoreService.csproj", "{F55A808A-9E6B-4C32-8546-91CE10A89BB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{B7BA0C01-19C1-44D7-B666-2E017831789F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7BA0C01-19C1-44D7-B666-2E017831789F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7BA0C01-19C1-44D7-B666-2E017831789F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55A808A-9E6B-4C32-8546-91CE10A89BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55A808A-9E6B-4C32-8546-91CE10A89BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55A808A-9E6B-4C32-8546-91CE10A89BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55A808A-9E6B-4C32-8546-91CE10A89BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
